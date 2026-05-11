@@ -1,0 +1,10 @@
+jupyter-book>=2.0.0
+jupytext == 1.16.1
+matplotlib == 3.8.3
+numpy == 1.26.4
+ghp-import == 2.1.0
+nnfs == 0.5.1
+sympy ==1.13.3
+torch == 2.7.0 
+torchaudio == 2.7.0
+torchvision == 0.22.0

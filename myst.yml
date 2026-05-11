@@ -1,0 +1,30 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 2a50451b-ffb7-4fda-ba0c-f5794576e9c8
+  title: DKlab
+  description: A knowledge base
+  keywords: 
+    - jupyter-book
+  authors: 
+    - name: Devakanth Kalapati
+      github: deva-k
+  github: https://github.com/deva-k/DKlab
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  jupyter:
+    lite: true
+  toc:
+    - file: intro.md
+    - title: Foundation
+      children:
+        - file: notebooks/foundation/linear_algebra
+    - title: Deep Learning
+      children:
+        - file: notebooks/deep_learning/neural_networks
+site:
+  template: book-theme
+  options:
+  #   favicon: favicon.ico
+    logo: logo.gif
