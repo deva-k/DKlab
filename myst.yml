@@ -23,6 +23,41 @@ project:
     - title: Deep Learning
       children:
         - file: notebooks/deep_learning/neural_networks
+    - title: PyTorch
+      children:
+        - file: "notebooks/Pytorch/pytorch.ipynb"
+        - title: 1 Getting started
+          children:
+            - file: "notebooks/Pytorch/1 Getting started/1 Simple neural network/C1_M1_Lab_1_simple_nn.ipynb"
+            - file: "notebooks/Pytorch/1 Getting started/2 Activation functions/C1_M1_Lab_2_activation_functions.ipynb"
+            - file: "notebooks/Pytorch/1 Getting started/3 Tensors/C1_M1_Lab_3_tensors.ipynb"
+            - file: "notebooks/Pytorch/1 Getting started/4 Multi-layer neural network/C1M1_Assignment.ipynb"
+        - title: 2 Workflow
+          children:
+            - file: "notebooks/Pytorch/2 Workflow/1 image classifier/C1_M2_Lab_1_mnist_classifier.ipynb"
+            - file: "notebooks/Pytorch/2 Workflow/2 EMNIST letter detective/C1M2_Assignment.ipynb"
+        - title: 3 Data management
+          children:
+            - file: "notebooks/Pytorch/3 Data management/1 Data management/C1_M3_Lab_data_management.ipynb"
+            - file: "notebooks/Pytorch/3 Data management/2 Data pipeline/C1M3_Assignment.ipynb"
+        - title: 4 Neural network components
+          children:
+            - file: "notebooks/Pytorch/4 Neural network components/1 Building CNN/C1_M4_Lab_1_cnn_nature_classifier.ipynb"
+            - file: "notebooks/Pytorch/4 Neural network components/2 Model debugging, inspection, and modularization/C1_M4_Lab_2_debugging.ipynb"
+            - file: "notebooks/Pytorch/4 Neural network components/3 Building robust CNN/C1M4_Assignment.ipynb"
+        - title: 5 Hyperparameter optimization
+          children:
+            - file: "notebooks/Pytorch/5 Hyperparameter optimization/1 Learning rate and metrics/C2_M1_Lab_1_tuning_and_metrics.ipynb"
+            - file: "notebooks/Pytorch/5 Hyperparameter optimization/2 Schedulers/C2_M1_Lab_2_Schedulers.ipynb"
+            - file: "notebooks/Pytorch/5 Hyperparameter optimization/3 Hyperparameter optimization with Optuna/C2_M1_Lab_3_Optuna.ipynb"
+            - file: "notebooks/Pytorch/5 Hyperparameter optimization/4 Model Efficiency/C2_M1_Lab_4_Efficiency.ipynb"
+            - file: "notebooks/Pytorch/5 Hyperparameter optimization/5 FakeFinder/C2M1_Assignment.ipynb"
+        - title: 6 TorchVision
+          children:
+            - file: "notebooks/Pytorch/6 TorchVision/1 Pre-processing/C2_M2_Lab_1_torchvision_1.ipynb"
+            - file: "notebooks/Pytorch/6 TorchVision/2 Datasets/C2_M2_Lab_2_torchvision_2.ipynb"
+            - file: "notebooks/Pytorch/6 TorchVision/3 Utility Functions and Models/C2_M2_Lab_3_torchvision_3.ipynb"
+            - file: "notebooks/Pytorch/6 TorchVision/4 Transfer Learning/C2_M2_Lab_4_transfer_learning.ipynb"
 site:
   template: book-theme
   options:
