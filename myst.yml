@@ -58,6 +58,45 @@ project:
             - file: "notebooks/Pytorch/6 TorchVision/2 Datasets/C2_M2_Lab_2_torchvision_2.ipynb"
             - file: "notebooks/Pytorch/6 TorchVision/3 Utility Functions and Models/C2_M2_Lab_3_torchvision_3.ipynb"
             - file: "notebooks/Pytorch/6 TorchVision/4 Transfer Learning/C2_M2_Lab_4_transfer_learning.ipynb"
+            - file: "notebooks/Pytorch/6 TorchVision/5 FakeFinder with Transfer Learning/C2M2_Assignment.ipynb"
+        - title: 7 Working with Text
+          children:
+            - file: "notebooks/Pytorch/7 Working with Text/1 Tokenization/C2_M3_Lab_1_basic_tokenization.ipynb"
+            - file: "notebooks/Pytorch/7 Working with Text/2 Embeddings/C2_M3_Lab_2_embeddings.ipynb"
+            - file: "notebooks/Pytorch/7 Working with Text/3 Simple Text Classifier in PyTorch/C2_M3_Lab_3_build_text_classifier.ipynb"
+            - file: "notebooks/Pytorch/7 Working with Text/4 Fine Tuning Pre-Trained Text Classifier Models/C2_M3_Lab_4_finetuned_text_classifier.ipynb"
+            - file: "notebooks/Pytorch/7 Working with Text/5 AI Powered Request Dispatcher/C2M3_Assignment.ipynb"
+        - title: 8 Efficient Training Pipelines
+          children:
+            - file: "notebooks/Pytorch/8 Efficient Training Pipelines/1 Optimizing DataLoaders for Performance/C2_M4_Lab_1_optimizing_dataloaders.ipynb"
+            - file: "notebooks/Pytorch/8 Efficient Training Pipelines/2 Introduction to Lightning and Performance Profiling /C2_M4_Lab_2_profiling.ipynb"
+            - file: "notebooks/Pytorch/8 Efficient Training Pipelines/3 Advanced Training Optimization using Lightning/C2_M4_Lab_3_optimization.ipynb"
+            - file: "notebooks/Pytorch/8 Efficient Training Pipelines/4 Pneumonia Diagnostic Assistant/C2M4_Assignment.ipynb"
+        - title: 9 Custom Architectures
+          children:
+            - file: "notebooks/Pytorch/9 Custom Architectures/1 Similarity Learning/C3_M1_Lab_1_siamese_network.ipynb"
+            - file: "notebooks/Pytorch/9 Custom Architectures/2 ResNet Architecture/C3_M1_Lab_2_resnet.ipynb"
+            - file: "notebooks/Pytorch/9 Custom Architectures/3 DenseNet Architecture/C3_M1_Lab_3_densenet.ipynb"
+            - file: "notebooks/Pytorch/9 Custom Architectures/4 Classification and Visual Search/C3M1_Assignment.ipynb"
+        - title: 10 Specialized Approaches to Vision
+          children:
+            - file: "notebooks/Pytorch/10 Specialized Approaches to Vision/1 Visualizing and Interpreting CNN/C3_M2_Lab_1_visualizing_and_interpreting.ipynb"
+            - file: "notebooks/Pytorch/10 Specialized Approaches to Vision/2 Saliency and Activation Maps/C3_M2_Lab_2_saliency_and_class_map.ipynb"
+            - file: "notebooks/Pytorch/10 Specialized Approaches to Vision/3 Stable Diffusion/C3_M2_Lab_3_stable_diffusion.ipynb"
+            - file: "notebooks/Pytorch/10 Specialized Approaches to Vision/4 Fruit Quality Inspection and Generation/C3M2_Assignment.ipynb"
+        - title: 11 Specialized Approaches to NLP
+          children:
+            - file: "notebooks/Pytorch/11 Specialized Approaches to NLP/1 Self-Attention building foundation of Transformers/C3M3_Lab_1_attention.ipynb"
+            - file: "notebooks/Pytorch/11 Specialized Approaches to NLP/2 Transformer Encoder/C3M3_Lab_2_encoder.ipynb"
+            - file: "notebooks/Pytorch/11 Specialized Approaches to NLP/3 Decoder/C3M3_Lab_3_decoder.ipynb"
+            - file: "notebooks/Pytorch/11 Specialized Approaches to NLP/4 Translation system/C3M3_Assignment.ipynb"
+        - title: 12 Preparing Models for Deployment
+          children:
+            - file: "notebooks/Pytorch/12 Preparing Models for Deployment/1 Model training with MLflow/C3_M4_Lab_1_mlflow.ipynb"
+            - file: "notebooks/Pytorch/12 Preparing Models for Deployment/2 From PyTorch to ONNX/C3_M4_Lab_2_onnx.ipynb"
+            - file: "notebooks/Pytorch/12 Preparing Models for Deployment/3 Introduction to Pruning/C3_M4_Lab_3_pruning.ipynb"
+            - file: "notebooks/Pytorch/12 Preparing Models for Deployment/4 Model Quantization/C3_M4_Lab_4_quantization.ipynb"
+            - file: "notebooks/Pytorch/12 Preparing Models for Deployment/5 Optimizing Models for Smart Fleet/C3M4_Assignment.ipynb"
 site:
   template: book-theme
   options:
